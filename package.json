@@ -2,13 +2,13 @@
   "name": "vk-apps-edinitsa",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://idkmyusername.github.io/edinitsa/",
   "main": "index.js",
-  "homepage": "https://idkmyusername.github.io/edinitsa",
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build"
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
